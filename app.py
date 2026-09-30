@@ -42,7 +42,7 @@ SYSTEM_PROMPT = """
 
 @app.route("/", methods=["GET"])
 def home():
-    return "Alice ChatGPT server is running!"
+return "Alice ChatGPT server is running!"
 
 
 @app.route("/alice", methods=["POST"])
